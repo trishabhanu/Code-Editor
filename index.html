@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- from boxicon from 8:20 video-Tech2etc --> 
+</head>
+<body>
+    <section class="container">
+        <h1>Code Editor👩🏻‍💻</h1>
+        <div class="editor">
+        <div class="left">
+            <label for=""><i class='bx bxl-html5'></i>HTML</label>
+            <textarea onkeyup="run()" spellcheck="false" name="" id="html-code"></textarea>
+            <label for=""><i class='bx bxl-css3'></i>CSS</label>
+            <textarea  onkeyup="run()"  spellcheck="false" name="" id="css-code"></textarea>
+            <label for=""><i class='bx bxl-javascript'></i>JS</label>
+            <textarea onkeyup="run()"  spellcheck="false" name="" id="js-code"></textarea>
+       </div>
+        <div class="right">
+            <label for=""><i class='bx bx-play'></i>Output</label>
+            <iframe id="Output" frameborder="0"></iframe>
+        </div>
+    </div>
+    </section>    
+    <script src="script.js"></script>
+</body>
+</html>
